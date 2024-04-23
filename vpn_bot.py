@@ -1,5 +1,6 @@
 import telebot
-from telebot import types
+from telegram.ext import Updater, CommandHandler, MessageHandlr, Filters
+from settings import TG_TOKEN, TG_APT_URL
 
 bot = telebot.TeleBot('7117380890:AAEozcDMDYmfmbh3RADFhHM98m_qpNmrO4k')
 
